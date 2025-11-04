@@ -56,7 +56,7 @@ function WorkspaceDropdown() {
         <div className="flex items-center gap-3">
           <img
             src={
-              currentWorkspace?.imageUrl ||
+              currentWorkspace?.image_url ||
               currentWorkspace?.organization?.imageUrl
             }
             alt={currentWorkspace?.name}
